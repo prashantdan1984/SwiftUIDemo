@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A09FE42B6D12DB00729BD6 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A09FE32B6D12DB00729BD6 /* landmarkData.json */; };
+		18A09FE62B6D18BA00729BD6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A09FE52B6D18BA00729BD6 /* Landmark.swift */; };
+		18A09FE82B6D200C00729BD6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A09FE72B6D200C00729BD6 /* ModelData.swift */; };
+		18A09FED2B6D25B400729BD6 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A09FEC2B6D25B400729BD6 /* LandmarkRow.swift */; };
+		18A09FEF2B6D28C300729BD6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A09FEE2B6D28C300729BD6 /* LandmarkList.swift */; };
 		18A80A9E2B6BD40C007254E8 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A80A9D2B6BD40C007254E8 /* SwiftUIDemoApp.swift */; };
 		18A80AA02B6BD40C007254E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A80A9F2B6BD40C007254E8 /* ContentView.swift */; };
 		18A80AA22B6BD411007254E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A80AA12B6BD411007254E8 /* Assets.xcassets */; };
 		18A80AA52B6BD411007254E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A80AA42B6BD411007254E8 /* Preview Assets.xcassets */; };
+		18A80AAC2B6BEAD6007254E8 /* png-transparent-statue-of-unity-sardar-vallabhai-patel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A80AAB2B6BEAD6007254E8 /* png-transparent-statue-of-unity-sardar-vallabhai-patel.png */; };
+		18A80AAE2B6BEFFF007254E8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A80AAD2B6BEFFF007254E8 /* CircleImage.swift */; };
+		18A80AB02B6BF2F1007254E8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A80AAF2B6BF2F1007254E8 /* MapView.swift */; };
+		18C43A4F2B6E1010005DBF25 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C43A4E2B6E1010005DBF25 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A09FE32B6D12DB00729BD6 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		18A09FE52B6D18BA00729BD6 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		18A09FE72B6D200C00729BD6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		18A09FEC2B6D25B400729BD6 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		18A09FEE2B6D28C300729BD6 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		18A80A9A2B6BD40C007254E8 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A80A9D2B6BD40C007254E8 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		18A80A9F2B6BD40C007254E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18A80AA12B6BD411007254E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A80AA42B6BD411007254E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A80AAB2B6BEAD6007254E8 /* png-transparent-statue-of-unity-sardar-vallabhai-patel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png-transparent-statue-of-unity-sardar-vallabhai-patel.png"; sourceTree = "<group>"; };
+		18A80AAD2B6BEFFF007254E8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		18A80AAF2B6BF2F1007254E8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		18C43A4E2B6E1010005DBF25 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A09FE92B6D23A700729BD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18A80A9F2B6BD40C007254E8 /* ContentView.swift */,
+				18A80AAD2B6BEFFF007254E8 /* CircleImage.swift */,
+				18A80AAF2B6BF2F1007254E8 /* MapView.swift */,
+				18A09FEC2B6D25B400729BD6 /* LandmarkRow.swift */,
+				18A09FEE2B6D28C300729BD6 /* LandmarkList.swift */,
+				18C43A4E2B6E1010005DBF25 /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18A09FEA2B6D23EC00729BD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18A09FE32B6D12DB00729BD6 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18A09FEB2B6D243600729BD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18A09FE52B6D18BA00729BD6 /* Landmark.swift */,
+				18A09FE72B6D200C00729BD6 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		18A80A912B6BD40C007254E8 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				18A80A9D2B6BD40C007254E8 /* SwiftUIDemoApp.swift */,
-				18A80A9F2B6BD40C007254E8 /* ContentView.swift */,
 				18A80AA12B6BD411007254E8 /* Assets.xcassets */,
+				18A80AAB2B6BEAD6007254E8 /* png-transparent-statue-of-unity-sardar-vallabhai-patel.png */,
 				18A80AA32B6BD411007254E8 /* Preview Content */,
+				18A09FEA2B6D23EC00729BD6 /* Resources */,
+				18A09FE92B6D23A700729BD6 /* Views */,
+				18A09FEB2B6D243600729BD6 /* Models */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -125,6 +176,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A80AAC2B6BEAD6007254E8 /* png-transparent-statue-of-unity-sardar-vallabhai-patel.png in Resources */,
+				18A09FE42B6D12DB00729BD6 /* landmarkData.json in Resources */,
 				18A80AA52B6BD411007254E8 /* Preview Assets.xcassets in Resources */,
 				18A80AA22B6BD411007254E8 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A80AA02B6BD40C007254E8 /* ContentView.swift in Sources */,
+				18A80AB02B6BF2F1007254E8 /* MapView.swift in Sources */,
 				18A80A9E2B6BD40C007254E8 /* SwiftUIDemoApp.swift in Sources */,
+				18A09FEF2B6D28C300729BD6 /* LandmarkList.swift in Sources */,
+				18C43A4F2B6E1010005DBF25 /* LandmarkDetail.swift in Sources */,
+				18A80AAE2B6BEFFF007254E8 /* CircleImage.swift in Sources */,
+				18A09FE62B6D18BA00729BD6 /* Landmark.swift in Sources */,
+				18A09FED2B6D25B400729BD6 /* LandmarkRow.swift in Sources */,
+				18A09FE82B6D200C00729BD6 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
