@@ -15,7 +15,11 @@ struct LandmarkList: View {
                 NavigationLink(destination: LandmarkDetail(landmark: landmarks)){
                     LandmarkRow(landmark: landmarks)
                 }
-            }.navigationBarTitle("Land Mark List")
+            }.navigationBarTitle("Land Mark Lisst")
+                Spacer()
+//            ZStack{
+//                Text("Test text")
+//            }
         }
     }
 }
